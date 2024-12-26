@@ -4,11 +4,11 @@ clipboard-paste-protection = true
 
 # Fonts
 font-family = "Symbols Nerd Font Mono"
-font-family = "Iosveka Custome"
-font-family-bold = "Iosveka Custome"
-font-family-italic = "Iosveka Custome"
-font-family-bold-italic = "Iosveka Custome"
-font-size = 14
+font-family = "Iosveka Custom"
+font-family-bold = "Iosveka Custom"
+font-family-italic = "Iosveka Custom"
+font-family-bold-italic = "Iosveka Custom"
+font-size = 6
 font-thicken = true
 adjust-underline-position = 40%
 adjust-underline-thickness = -60%
