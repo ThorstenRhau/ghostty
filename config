@@ -1,0 +1,25 @@
+# Fonts
+font-family = "Symbols Nerd Font Mono"
+font-family = "Iosveka Custome"
+font-family-bold = "Iosveka Custome"
+font-family-italic = "Iosveka Custome"
+font-family-bold-italic = "Iosveka Custome"
+font-size = 14
+#adjust-underline-position = 4
+
+# Mouse
+mouse-hide-while-typing = true
+mouse-scroll-multiplier = 1
+
+# keybindings
+#keybind = clear
+keybind = super+t=new_tab
+
+# Window
+window-padding-y = 2,0
+window-padding-balance = true
+#window-decoration = false
+
+# Other
+copy-on-select = clipboard
+shell-integration-features = cursor,sudo,no-title
