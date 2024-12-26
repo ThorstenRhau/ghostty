@@ -1,0 +1,2 @@
+# ghostly
+ghostty terminal configuration
