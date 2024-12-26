@@ -1,36 +1,36 @@
-# General
-confirm-close-surface = true
-clipboard-paste-protection = true
-
 # Fonts
+# https://typeof.net/Iosevka/
+adjust-underline-position = 10%
+bold-is-bright = true
+font-family = "Iosevka Custom"
 font-family = "Symbols Nerd Font Mono"
-font-family = "Iosveka Custom"
-font-family-bold = "Iosveka Custom"
-font-family-italic = "Iosveka Custom"
-font-family-bold-italic = "Iosveka Custom"
-font-size = 6
-font-thicken = false
-adjust-underline-position = 40%
-adjust-underline-thickness = -60%
+font-size = 15
 
-# Cursor
-cursor-style = block
-cursor-style-blink = false
+font-feature = calt
+font-feature = dlig
+font-feature = liga
+font-feature = ss05
 
-# Mouse
+# Look and feel
 mouse-hide-while-typing = true
-mouse-scroll-multiplier = 1
+theme = dark:tokyonight,light:tokyonight-day
 
-# keybindings
-#keybind = clear
+# Keybindings
 keybind = super+t=new_tab
 
 # Window
-window-padding-y = 2,0
-window-padding-balance = true
 window-height = 45
 window-width = 110
+window-inherit-font-size = false
 
 # Other
-copy-on-select = clipboard
-shell-integration-features = cursor,sudo,no-title
+clipboard-paste-protection
+clipboard-trim-trailing-spaces
+copy-on-select = true
+link-url = true
+macos-auto-secure-input = true
+macos-secure-input-indication = true
+quit-after-last-window-closed = true
+scrollback-limit = 4200
+shell-integration = fish
+shell-integration-features = cursor,sudo,title
