@@ -9,7 +9,7 @@ font-family-bold = "Iosveka Custom"
 font-family-italic = "Iosveka Custom"
 font-family-bold-italic = "Iosveka Custom"
 font-size = 6
-font-thicken = true
+font-thicken = false
 adjust-underline-position = 40%
 adjust-underline-thickness = -60%
 
