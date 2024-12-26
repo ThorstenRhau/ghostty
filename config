@@ -1,3 +1,7 @@
+# General
+confirm-close-surface = true
+clipboard-paste-protection = true
+
 # Fonts
 font-family = "Symbols Nerd Font Mono"
 font-family = "Iosveka Custome"
@@ -5,7 +9,13 @@ font-family-bold = "Iosveka Custome"
 font-family-italic = "Iosveka Custome"
 font-family-bold-italic = "Iosveka Custome"
 font-size = 14
-#adjust-underline-position = 4
+font-thicken = true
+adjust-underline-position = 40%
+adjust-underline-thickness = -60%
+
+# Cursor
+cursor-style = block
+cursor-style-blink = false
 
 # Mouse
 mouse-hide-while-typing = true
@@ -18,7 +28,8 @@ keybind = super+t=new_tab
 # Window
 window-padding-y = 2,0
 window-padding-balance = true
-#window-decoration = false
+window-height = 45
+window-width = 110
 
 # Other
 copy-on-select = clipboard
