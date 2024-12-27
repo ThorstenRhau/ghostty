@@ -1,17 +1,43 @@
 # ghostty +show-config --default --docs
 # ghostty +list-themes
-bold-is-bright = true
-clipboard-paste-protection = true
+
+# Font
+freetype-load-flags            = no-hinting
+freetype-load-flags            = no-force-autohint
+
+font-family                    = Symbols Nerd Font Mono
+
+font-family                    = Iosevka Custom
+font-family-bold               = Iosevka Custom
+font-family-italic             = Iosevka Custom
+font-family-bold-italic        = Iosevka Custom
+window-title-font-family       = Iosevka Custom
+
+font-feature                   = calt
+font-feature                   = dlig
+font-feature                   = ss05
+
+font-thicken                   = false
+font-size                      = 14
+
+# Look and Feel
+adjust-cursor-thickness        = 3
+adjust-underline-position      = 3
+bold-is-bright                 = true
+link-url                       = true
+macos-titlebar-proxy-icon      = hidden
+macos-titlebar-style           = tabs
+mouse-hide-while-typing        = true
+theme                          = dark:tokyonight_night,light:tokyonight_day
+window-vsync                   = true
+
+# Other
+clipboard-paste-protection     = true
 clipboard-trim-trailing-spaces = true
-copy-on-select = true
-keybind = super+t=new_tab
-link-url = true
-macos-auto-secure-input = true
-macos-secure-input-indication = true
-mouse-hide-while-typing = true
-quit-after-last-window-closed = true
-scrollback-limit = 4200
-shell-integration = fish
-shell-integration-features = no-cursor,sudo,title
-theme = dark:tokyonight,light:tokyonight-day
-window-vsync = true
+copy-on-select                 = true
+macos-auto-secure-input        = true
+macos-secure-input-indication  = true
+quit-after-last-window-closed  = true
+scrollback-limit               = 4200
+shell-integration              = fish
+shell-integration-features     = no-cursor,sudo,title
