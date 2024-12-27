@@ -1,36 +1,17 @@
-# Fonts
-# https://typeof.net/Iosevka/
-adjust-underline-position = 10%
+# ghostty +show-config --default --docs
+# ghostty +list-themes
 bold-is-bright = true
-font-family = "Iosevka Custom"
-font-family = "Symbols Nerd Font Mono"
-font-size = 15
-
-font-feature = calt
-font-feature = dlig
-font-feature = liga
-font-feature = ss05
-
-# Look and feel
-mouse-hide-while-typing = true
-theme = dark:tokyonight,light:tokyonight-day
-
-# Keybindings
-keybind = super+t=new_tab
-
-# Window
-window-height = 45
-window-width = 110
-window-inherit-font-size = false
-
-# Other
-clipboard-paste-protection
-clipboard-trim-trailing-spaces
+clipboard-paste-protection = true
+clipboard-trim-trailing-spaces = true
 copy-on-select = true
+keybind = super+t=new_tab
 link-url = true
 macos-auto-secure-input = true
 macos-secure-input-indication = true
+mouse-hide-while-typing = true
 quit-after-last-window-closed = true
 scrollback-limit = 4200
 shell-integration = fish
-shell-integration-features = cursor,sudo,title
+shell-integration-features = no-cursor,sudo,title
+theme = dark:tokyonight,light:tokyonight-day
+window-vsync = true
