@@ -33,21 +33,18 @@ theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
 
 # Key bindings
-keybind = ctrl+h=goto_split:left
-keybind = ctrl+j=goto_split:bottom
-keybind = ctrl+k=goto_split:top
-keybind = ctrl+l=goto_split:right
-keybind = ctrl+shift+h=new_split:left
-keybind = ctrl+shift+j=new_split:down
-keybind = ctrl+shift+k=new_split:up
-keybind = ctrl+shift+l=new_split:right
-keybind = super+t=new_tab
-keybind = super+shift+c=copy_to_clipboard
-keybind = super+shift+v=paste_from_clipboard
-keybind = super+shift+enter=new_split:auto
-keybind = super+shift+i=inspector:toggle
-keybind = super+shift+r=reload_config
-keybind = super+shift+w=close_surface
+keybind                        = ctrl+h            = goto_split:left
+keybind                        = ctrl+j            = goto_split:bottom
+keybind                        = ctrl+k            = goto_split:top
+keybind                        = ctrl+l            = goto_split:right
+keybind                        = ctrl+shift+h      = new_split:left
+keybind                        = ctrl+shift+j      = new_split:down
+keybind                        = ctrl+shift+k      = new_split:up
+keybind                        = ctrl+shift+l      = new_split:right
+keybind                        = super+shift+enter = new_split:auto
+keybind                        = super+shift+i     = inspector:toggle
+keybind                        = super+shift+r     = reload_config
+keybind                        = super+t           = new_tab
 
 # Other
 clipboard-paste-protection     = true
