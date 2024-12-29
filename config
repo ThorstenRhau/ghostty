@@ -1,19 +1,13 @@
 # ghostty +show-config --default --docs
 # ghostty +list-themes
 
-# Font
-freetype-load-flags            = no-hinting
-freetype-load-flags            = no-force-autohint
-
 font-family                    = Symbols Nerd Font Mono
 font-family                    = Iosevka Custom
-window-title-font-family       = Iosevka Custom
 
 font-feature                   = calt
 font-feature                   = dlig
 font-feature                   = ss05
 
-font-thicken                   = false
 font-size                      = 14
 window-inherit-font-size       = true
 
@@ -22,8 +16,6 @@ adjust-cursor-thickness        = 3
 adjust-underline-position      = 3
 bold-is-bright                 = true
 link-url                       = true
-macos-titlebar-proxy-icon      = hidden
-macos-titlebar-style           = tabs
 mouse-hide-while-typing        = true
 theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
@@ -34,7 +26,6 @@ clipboard-trim-trailing-spaces = true
 copy-on-select                 = true
 macos-auto-secure-input        = true
 macos-secure-input-indication  = true
-quit-after-last-window-closed  = false
 scrollback-limit               = 4200
 shell-integration              = fish
 shell-integration-features     = no-cursor,sudo,title
