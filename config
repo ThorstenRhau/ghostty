@@ -18,7 +18,7 @@ bold-is-bright                 = true
 cursor-invert-fg-bg            = true
 link-url                       = true
 mouse-hide-while-typing        = true
-theme                          = dark:melange_dark,light:melange_light
+theme                          = GruvboxDark
 window-vsync                   = true
 
 # Other
