@@ -15,9 +15,10 @@ window-inherit-font-size       = true
 adjust-cursor-thickness        = 3
 adjust-underline-position      = 3
 bold-is-bright                 = true
+cursor-invert-fg-bg            = true
 link-url                       = true
 mouse-hide-while-typing        = true
-theme                          = dark:tokyonight_night,light:tokyonight_day
+theme                          = dark:melange_dark,light:melange_light
 window-vsync                   = true
 
 # Other
