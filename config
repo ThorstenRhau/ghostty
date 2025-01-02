@@ -2,9 +2,15 @@
 # ghostty +list-themes
 
 font-family                    = Symbols Nerd Font Mono
-font-family                    = PragmataPro Mono Liga
+font-family                    = Fira Code
 
-font-size                      = 15
+font-style                     = Retina
+
+font-feature                   = calt
+font-feature                   = cv14
+font-feature                   = ss03
+
+font-size                      = 13
 window-inherit-font-size       = true
 
 # Look and Feel
@@ -12,7 +18,7 @@ adjust-cursor-thickness        = 3
 adjust-underline-position      = 3
 bold-is-bright                 = true
 cursor-invert-fg-bg            = true
-cursor-opacity                 = 0.8
+cursor-opacity                 = 0.7
 link-url                       = true
 mouse-hide-while-typing        = true
 theme                          = dark:tokyonight_night,light:tokyonight_day
