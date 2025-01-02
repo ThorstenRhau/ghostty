@@ -2,17 +2,7 @@
 # ghostty +list-themes
 
 font-family                    = Symbols Nerd Font Mono
-font-family                    = Fira Code
-
-font-style                     = retina
-font-style-bold                = bold
-font-style-bold-italic         = bold
-font-style-italic              = retina
-
-font-feature                   = calt
-font-feature                   = zero
-font-feature                   = cv14
-font-feature                   = ss03
+font-family                    = PragmataPro Mono Liga
 
 font-size                      = 13
 window-inherit-font-size       = true
