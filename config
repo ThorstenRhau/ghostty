@@ -7,11 +7,15 @@ font-family-bold               = Fira Code
 font-family-italic             = Maple Mono
 font-family-bold-italic        = Maple Mono
 
+font-style                     = retina
+font-style-bold                = bold
+font-style-bold-italic         = bolditalic
+font-style-italic              = italic
+
 font-feature                   = calt
 font-feature                   = zero
 font-feature                   = cv14
 font-feature                   = ss03
-
 
 font-size                      = 13
 window-inherit-font-size       = true
