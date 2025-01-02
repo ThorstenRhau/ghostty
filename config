@@ -12,9 +12,10 @@ adjust-cursor-thickness        = 3
 adjust-underline-position      = 3
 bold-is-bright                 = true
 cursor-invert-fg-bg            = true
+cursor-opacity                 = 0.8
 link-url                       = true
 mouse-hide-while-typing        = true
-theme                          = dark:catppuccin-mocha,light:catppuccin-latte
+theme                          = dark:tokyonight_night,light:tokyonight_day
 window-vsync                   = true
 
 # Other
@@ -25,7 +26,7 @@ macos-auto-secure-input        = true
 macos-secure-input-indication  = true
 scrollback-limit               = 4200
 shell-integration              = fish
-shell-integration-features     = no-cursor,sudo,title
+shell-integration-features     = cursor,sudo,title
 
 # Key bindings
 keybind                        = ctrl+h=goto_split:left
