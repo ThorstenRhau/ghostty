@@ -2,13 +2,29 @@
 # ghostty +list-themes
 
 font-family                    = Symbols Nerd Font Mono
-font-family                    = Fira Code
+font-family                    = MonoLisa Variable
+font-family-bold               = MonoLisa Variable
+font-family-italic             = MonoLisa Variable
+font-family-bold-italic        = MonoLisa Variable
+
+font-variation                 = wght = 400
+font-variation-bold            = wght = 700
+font-variation-italic          = wght = 400
+font-variation-bold-italic     = wght = 700
 
 font-feature                   = calt
-font-feature                   = cv14
-font-feature                   = ss03
+font-feature                   = liga
+font-feature                   = ss02
+font-feature                   = ss07
+font-feature                   = ss08
+font-feature                   = ss09
+font-feature                   = ss11
+font-feature                   = ss13
+font-feature                   = ss15
+font-feature                   = ss16
+font-feature                   = ss17
 
-font-size                      = 13
+font-size                      = 12
 window-inherit-font-size       = true
 
 # Look and Feel
