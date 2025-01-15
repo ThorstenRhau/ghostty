@@ -11,7 +11,7 @@ font-feature                   = calt
 font-feature                   = liga
 font-feature                   = ss13
 
-font-size                      = 13
+font-size                      = 15
 window-inherit-font-size       = true
 
 # Look and Feel
