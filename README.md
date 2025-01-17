@@ -1,4 +1,4 @@
-# Ghostty 👻
+# Ghostty 👻 (merged in to dotfiles repo)
 
 Ghostty terminal configuration for me by me.
 
